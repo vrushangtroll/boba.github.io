@@ -1,5 +1,5 @@
 let count=0
-if(window.screen.availHeight<1080){
+if(window.navigator.userAgentData.mobile){
     alert("Open this link on your laptop!!")
     window.location.reload()
 }
