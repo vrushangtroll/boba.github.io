@@ -1,7 +1,7 @@
 let count=0
-if(navigator.userAgentData.mobile){
-    alert("Check on your laptop!!")
-    window.close()
+if(window.screen.availHeight<1080){
+    alert("Open this link on your laptop!!")
+    window.location.reload()
 }
 
 function yes(){
