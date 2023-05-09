@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0 0 0 0;
+    background-color: rgb(233, 233, 233);
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    background-color: rgb(53, 150, 230);
+    color: white;
+}
+
+.kitty{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+}
+
+.buttons{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin-left: 3%;
+    height: 8vh;
+    width: 20vh;
+    border: 0px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-size: 3vh;
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 2%;
+}
+#no{
+    left: 50%;
+}
+#yes{
+    left: 35%;
+}
+
+.happy{
+    height: 50vh;
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(92, 144, 241);
+    border-radius: 30px;
+    color: white;
+    font-size: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.sad{
+    height: 50vh;
+    width: 70vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(92, 144, 241);
+    border-radius: 30px;
+    color: white;
+    font-size: 15vh;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
