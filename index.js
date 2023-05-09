@@ -1,4 +1,9 @@
 let count=0
+if(navigator.userAgentData.mobile){
+    alert("Check on your laptop!!")
+    window.close()
+}
+
 function yes(){
     document.getElementById("happy").style.display="flex";
     document.getElementById("yes").style.display="none";
